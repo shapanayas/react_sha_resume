@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div>
       <div className="img">
-        <img src={Myimage} />
+        <img className="img-fluid" src={Myimage} />
       </div>
       <div>
         <img class="image_1" src={ShaPic} width={300} height={300} />
