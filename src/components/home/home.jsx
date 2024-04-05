@@ -4,23 +4,17 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Myimage from "./header.png";
 import ShaPic from "./shapic.png";
-import Coms from "./coms.png";
-import Figure from "react-bootstrap/Figure";
-import CardGroup from "react-bootstrap/CardGroup";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import Row from "react-bootstrap/Row";
-import Container from "react-bootstrap/Container";
-import Stack from "react-bootstrap/Stack";
 
 const Home = () => {
   return (
     <div>
-      <div className="img">
-        <img className="img-fluid" src={Myimage} />
+      <div>
+        <img className= "headerimg" src={Myimage} />
       </div>
       <div>
         <img class="image_1" src={ShaPic} width={300} height={300} />
+        </div>
+      <div>
         <div className="container">
           <div className="caption">
             <h1 className="title">who is sharmaine</h1>
